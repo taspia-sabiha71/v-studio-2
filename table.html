@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLE</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+       th, td{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="STYLES/nav.css">
+</head>
+<body>
+    <header><nav>
+        <ul>
+            <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a>
+                </li>
+                <li><a href="table.html">table</a>
+                    <ul class="dropdown">
+                    <li><a href="video.html">video</a></li>
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="table.html">table</a></li>
+                        <li><a href="BLOG.html">blog</a></li>
+                </ul> 
+                </li>
+                <li><a href="BLOG.html">blog</a></li>
+        </ul>
+    </nav></header>
+    <main>
+    <h1>html table</h1>
+    <table>
+        <caption>Employ salary table</caption>
+    <thead>
+        <tr>
+            <th>NO.</th>
+            <th>name</th>
+            <th>company</th>
+            <th>salary</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>bill gates</td>
+            <td>microsoft</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>steve</td>
+            <td>Apple</td>
+            <td>$1200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>mark</td>
+            <td>facebook</td>
+            <td>$1300</td>
+        </tr>
+        
+
+    </tbody>
+    <tfoot>
+        <td colspan="4">Total employ:3</td>
+
+    </tfoot>
+    </table>
+    <ul>
+        <li>table head=thead</li>
+        <li>table body=tbody</li>
+        <li>TABLE footer=tfoot</li>
+        <li> table row=tr</li>
+        <li> table data or table cell=td</li>
+
+    </ul>
+    </main>
+</body>
+</html>
